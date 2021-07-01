@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "808224819366",
+    "firebase_url": "https://lets-read-news-a123b.firebaseio.com",
+    "project_id": "lets-read-news-a123b",
+    "storage_bucket": "lets-read-news-a123b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:808224819366:android:d81226e8ea08ce0e2c8c67",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "808224819366-pm0gv9bd7jsept4bjqc70q27jsktvja5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7QHBQfzKcHqrY11Bb_8RCNbTx5GdWYHs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "808224819366-pm0gv9bd7jsept4bjqc70q27jsktvja5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:808224819366:android:31ed5701e66662d02c8c67",
+        "android_client_info": {
+          "package_name": "com.example.visionblind"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "808224819366-pm0gv9bd7jsept4bjqc70q27jsktvja5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7QHBQfzKcHqrY11Bb_8RCNbTx5GdWYHs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "808224819366-pm0gv9bd7jsept4bjqc70q27jsktvja5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/button_pink_normal"
+    android:layout_height="match_parent"
+    tools:context=".FontSize">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="5dp"
+        android:orientation="vertical"
+        android:weightSum="4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <include
+            android:id="@+id/complete_actionbar"
+            layout="@layout/partial_actionbar" />
+        <Button
+            android:id="@+id/smallbutton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="2dp"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:text="example"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/normalbutton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="2dp"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:text="example"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/largebutton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="2dp"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:text="example"
+            android:textSize="35sp" />
+
+        <Button
+            android:id="@+id/extralargebutton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="2dp"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:text="example"
+            android:textSize="45sp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

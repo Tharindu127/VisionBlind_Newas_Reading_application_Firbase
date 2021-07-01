@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/hotnews"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginBottom="2dp"
+            android:textColor="#ffffff"
+            android:background="@drawable/button_gray_normal"
+            android:textSize="30sp"
+            android:text="Hot News" />
+
+        <Button
+            android:id="@+id/politicalnews"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginBottom="2dp"
+            android:textSize="30sp"
+            android:textColor="#ffffff"
+            android:background="@drawable/button_gray_normal"
+            android:text="political news" />
+
+        <Button
+            android:id="@+id/socialnews"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:textSize="30sp"
+            android:textColor="#ffffff"
+            android:layout_marginBottom="2dp"
+            android:background="@drawable/button_gray_normal"
+            android:text="social news" />
+
+        <Button
+            android:id="@+id/sportsnews"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:textSize="30sp"
+            android:textColor="#ffffff"
+            android:layout_marginBottom="2dp"
+            android:background="@drawable/button_gray_normal"
+            android:text="sports news" />
+
+        <Button
+            android:id="@+id/businessnews"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:textColor="#ffffff"
+            android:layout_marginBottom="2dp"
+            android:background="@drawable/button_gray_normal"
+            android:textSize="30sp"
+            android:text="business news" />
+
+        <Button
+            android:id="@+id/weathernews"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:textColor="#ffffff"
+            android:layout_marginBottom="2dp"
+            android:background="@drawable/button_gray_normal"
+            android:textSize="30sp"
+            android:text="weather news" />
+
+        <Button
+            android:id="@+id/foreignnews"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:textColor="#ffffff"
+            android:layout_marginBottom="2dp"
+            android:background="@drawable/button_gray_normal"
+            android:textSize="30sp"
+            android:text="foreign news" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

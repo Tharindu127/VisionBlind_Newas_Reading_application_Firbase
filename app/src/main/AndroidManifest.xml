@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.visionblind">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/eye_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/eye_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".CompletePassView"
+            android:label="@string/title_activity_complete_pass_view"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ExtralargePassView"
+            android:label="@string/title_activity_extralarge_pass_view"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LargePassView"
+            android:label="@string/title_activity_large_pass_view"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".NormalPassView"
+            android:label="@string/title_activity_normal_pass_view"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SmallPassView"
+            android:label="@string/title_activity_small_pass_view"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".NewssetNormal"
+            android:label="Normal Size"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".NewssetSmall"
+            android:label="Small Size"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ExtralargeForeign"
+            android:label="Extra Large Size"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ExtralargeWeather"
+            android:label="Weather News"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ExtralargeBusiness"
+            android:label="Business News"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ExtralargeSports"
+            android:label="Sports News"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ExtralargeSocial"
+            android:label="Social News"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ExtralargePolitical"
+            android:label="Political News"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ExtralargeHot"
+            android:label="Hot News"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LargeForeign"
+            android:label="Foreign News"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LargeWeather"
+            android:label="Weather News"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LargeBusiness"
+            android:label="Business News"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LargeSports"
+            android:label="Sports News"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LargeSocial"
+            android:label="Social News"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LargePolitical"
+            android:label="Political News"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LargeHot"
+            android:label="Hot News"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SmallForeign"
+            android:label="Foreign News"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SmallWeather"
+            android:label="Weather News"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SmallBusiness"
+            android:label="Business News"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SmallSports"
+            android:label="Sports News"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SmallSocial"
+            android:label="Social News"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SmallPolitical"
+            android:label="Political News"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SmallHot"
+            android:label="Hot News"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".NormalForeign"
+            android:label="Foreign News"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".NormalWeather"
+            android:label="Weather News"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".NormalBusiness"
+            android:label="Business News"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".NormalSports"
+            android:label="Sports News"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".NormalSocial"
+            android:label="Social News"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".NormalPolitical"
+            android:label="Political News"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".NormalHot"
+            android:label="Hot News"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Welcome">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".NewssetExtralarge"
+            android:label="Extra Large News"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".NewssetLarge"
+            android:label="Large News"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".FontSize" />
+        <activity
+            android:name=".ForeignNews"
+            android:label="Foreign News"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".WeatherNews"
+            android:label="Weather News"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BusinessNews"
+            android:label="Business News"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SportsNews"
+            android:label="Sports News"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SocialNews"
+            android:label="Social News"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PoliticalNews"
+            android:label="Political News"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HotNews"
+            android:label="Hot News"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CompleteBlind"
+            android:label="Complete Blindness"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

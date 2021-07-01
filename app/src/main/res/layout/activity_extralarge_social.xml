@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".ExtralargeSocial">
+
+    <com.github.ybq.android.spinkit.SpinKitView
+        android:id="@+id/welcome_progress"
+        style="@style/SpinKitView.Large.ThreeBounce"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:SpinKit_Color="#D8A0A0"
+        android:layout_gravity="center" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/complete_actionbar"
+            layout="@layout/partial_actionbar" />
+    <include layout="@layout/content_extralarge_social" />
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
